@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+/*----------- HEADER -----------*/
+
+header {
+    background-color: #0000008f;
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header nav {
+    box-shadow: 0.00px 4.00px 27px 0px rgba(45, 45, 45, 0.15);
+}
+
+header nav ul {
+    line-height: 35px;
+    margin: 0 !important;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header .headerDiv {
+    width: 45%;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(195, 195, 195);
+    font-size: 15px;
+}
+
+header nav ul li a:hover {
+    opacity: 0.5;
+}
+
+header p {
+    font-size: 27px;
+    letter-spacing: 3px;
+    color: white;
+}
+.glav {
+    color: #04d004;
+}
+
+.glav:hover {
+    color: rgb(195, 195, 195);
+}
+
+.divLogo {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border-right: 4px solid #04d004;
+}
+
+.logo {
+    line-height: 35px;
+    color: #04d004;
+}
+
+.sec1{
+    background-color: #000000e6;
+    height: 65vh;
+    padding: 80px;
+}
+
+.sec1 .formDiv{
+    width: 500px;
+    height: 430px;
+    margin: 100px auto;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.sec1 form {
+    padding: 40px;
+}
+.sec1 .formDiv form input{
+    width: 100%;
+    margin-top: 7px;
+    border: none;
+    padding: 10px 5px;
+    box-sizing: border-box;
+}
+
+.sec1 .formDiv form input[type="submit"]{
+    background-color: #04d004;
+    color: white;
+    transition: 0.5s;
+}
+
+.sec1 .formDiv form input[type="submit"]:hover{
+    background-color: black;
+}
+
+
+
+.sec1 h2{
+    color: #04d004;
+    font-size: 40px;
+    margin: 15px;
+}
+
+footer{
+    background-color: black;
+    height: 60vh;
+    padding: 30px;
+}
+
+.mainDiv{
+    display: flex;
+    justify-content: space-around;
+}
+
+.mainDiv div{
+    width: 500px;
+    height: 500px;
+}
+
+h3{
+    color: white;
+}
+
+p{
+    color: gray;
+    line-height: 40px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.headp{
+    color: #04d004;
+    text-align: center;
+    font-size: 100px;
+    font-style: italic;
+}
+
+.mainDiv div form input[type="email"]{
+    background-color: black;
+    border: 1px solid white;
+    padding: 15px 65px;
+}
+
+.mainDiv div form input[type="email"]::placeholder{
+    color: rgb(182, 179, 179);
+}
+
+.mainDiv div form input[type="submit"]{
+    padding: 10px 25px;
+    border: none;
+    background-color: #04d004;
+    color: white;
+    margin-top: 10px;
+}
+
+.mainDiv div form input[type="submit"]:hover{
+    background-color: black;
+}

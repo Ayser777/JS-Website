@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(23, 25, 31);
+}
+
+header nav {
+    background-color: rgb(23, 25, 31);
+}
+
+header nav ul {
+    margin: 0 !important;
+    padding: 8px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header .headerDiv {
+    width: 40%;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(195, 195, 195);
+    font-size: 15px;
+}
+
+header nav ul li a:hover {
+    opacity: 0.5;
+}
+
+.glav {
+    color: #04d004;
+}
+
+.glav:hover {
+    color: rgb(195, 195, 195);
+}
+
+.divLogo {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border-right: 4px solid #04d004;
+}
+
+.logo {
+    line-height: 35px;
+    color: #04d004;
+}
+
+img{
+    width: 20%;
+    height: 15%;
+    margin: -2px;
+    cursor: zoom-in;
+    transition: 0.4s;
+}
+
+img:hover{
+    opacity: 0.8;
+}
+
+.main{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 70px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9)
+}
+
+.main img{
+    margin: auto;
+    display: block;
+    width: 50%;
+    height: 750px;
+}
+
+.clos{
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    cursor: zoom-out;
+  }
+
